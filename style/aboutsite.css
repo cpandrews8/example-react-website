@@ -1,0 +1,48 @@
+.div{
+	margin: 10px auto;
+}
+
+.title{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mainbox{
+	width: 70%;
+	margin: auto;
+}
+
+.techbox{
+	width: 30%;
+	float: left;
+	margin: 3px;
+}
+
+.techtitle{
+	text-align: center;
+}
+
+.p{
+	text-align: center;
+}
+
+.row{
+	clear: left;
+}
+
+.a{
+	text-decoration: none;
+	color: black;
+}
+
+.a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+@media (max-width: 500px){
+	.techbox{
+	width: 100%;
+	float: left;
+}
+}

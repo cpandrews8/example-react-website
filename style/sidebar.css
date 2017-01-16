@@ -1,0 +1,55 @@
+.visible{
+	visibility: visible;
+	color: gray;
+	right: 0px;
+	border-bottom:solid 1px #555;
+	padding: 10px 15px;
+}
+
+.visible:hover{
+	background-color: gray;
+	color: black;
+	right: 0px;
+	padding: 10px 15px;
+}
+
+.button{
+	background-color: gray;
+	left: 0px;
+	color: black;
+	border-bottom:solid 1px #555;
+	padding: 10px 20px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.sidebarvisible{
+	position: absolute;
+	background-color: black;
+	width: 25%;
+	-webkit-transition: width .25s;
+    transition: width .25s;
+    -webkit-margin-before: 0px;
+    list-style: none;
+    height: 100%;
+    z-index: 1;
+    -webkit-padding-start: 5px;
+}
+
+.sidebarhidden{
+	position: absolute;
+	width: 0px;
+	-webkit-margin-before: 0px;
+	list-style: none;
+	z-index: 1;
+	-webkit-padding-start: 0px;
+}
+
+.link{
+	text-decoration: none;
+}
+
+
+
