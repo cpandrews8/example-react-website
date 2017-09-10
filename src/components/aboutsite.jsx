@@ -83,6 +83,42 @@ class aboutSite extends Component {
 							</a>
 						</div>
 					</div>
+					<div className={styles.row}>
+						<div className={styles.techboxtan}>
+							<a href="https://expressjs.com/" className={styles.a}>
+							<h2 className={styles.techtitle}>Express</h2>
+							<p className={styles.p}>
+							Fast, unopinionated, minimalist web framework for Node.js.
+							Express is a minimal and flexible Node.js web application framework that 
+							provides a robust set of features for web and mobile applications.
+							With a myriad of HTTP utility methods and middleware at your disposal, 
+							creating a robust API is quick and easy.
+							</p>
+							</a>
+						</div>
+						<div className={styles.techboxpowder}>
+							<a href="https://aws.amazon.com/" className={styles.a}>
+							<h2 className={styles.techtitle}>Amazon Web Services</h2>
+							<p className={styles.p}>
+							Amazon Web Services provides on-demand cloud computing platforms to individuals, 
+							companies and governments, on a paid subscription basis. The technology allows 
+							subscribers to have at their disposal a full-fledged virtual cluster of computers, 
+							available all the time, through the internet.
+							</p>
+							</a>
+						</div>
+						<div className={styles.techboxtan}>
+							<a href="https://www.docker.com/" className={styles.a}>
+							<h2 className={styles.techtitle}>Docker</h2>
+							<p className={styles.p}>
+							Docker is the world’s leading software container platform. Developers use 
+							Docker to eliminate “works on my machine” problems when collaborating on code 
+							with co-workers. Operators use Docker to run and manage apps side-by-side in isolated 
+							containers to get better compute density...
+							</p>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		)
