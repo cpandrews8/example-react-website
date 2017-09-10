@@ -37,8 +37,23 @@
     -webkit-margin-before: 0px;
     list-style: none;
     height: 100%;
-    z-index: 3;
+    z-index: 1;
     -webkit-padding-start: 5px;
+}
+
+@media (max-width: 500px) {
+	.sidebarvisible{
+		position: fixed;
+		background-color: #565656;
+		width: 60%;
+		-webkit-transition: width .25s;
+	    transition: width .25s;
+	    -webkit-margin-before: 0px;
+	    list-style: none;
+	    height: 100%;
+	    z-index: 1;
+	    -webkit-padding-start: 5px;
+	}
 }
 
 .sidebarhidden{

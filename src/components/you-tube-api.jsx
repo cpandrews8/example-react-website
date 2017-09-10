@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Video from '../containers/video';
 import SearchBar from '../containers/searchbar';
-import styles from '../../style/aboutme.css'
 
 class YouTubeApi extends Component {
 	render(){

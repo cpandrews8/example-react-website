@@ -32,9 +32,6 @@ class SideBar extends Component {
 					<Link to='/' className={styles.link}>
 						<li className={className}>Home</li>
 					</Link>
-					<Link to='me' className={styles.link}>
-						<li className={className}>About Me</li>
-					</Link>
 					<Link to='/site' className={styles.link}>
 						<li className={className}>About This Site</li>
 					</Link>

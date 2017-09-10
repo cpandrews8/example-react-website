@@ -14,7 +14,7 @@ class Video extends Component {
 		var self = this;
 		var videoTerm;
 		if(this.props.term===''){
-			videoTerm = 'pickles';
+			videoTerm = 'taylor swift';
 		}else{
 			videoTerm = this.props.term;
 		}

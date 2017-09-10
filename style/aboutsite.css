@@ -6,6 +6,8 @@
 .title{
 	margin: 0 auto;
 	text-align: center;
+	color: #E37222;
+	font-family: Pacifico;
 }
 
 .mainbox{
@@ -13,10 +15,18 @@
 	margin: auto;
 }
 
-.techbox{
+.techboxtan{
 	width: 30%;
 	float: left;
 	margin: 3px;
+	background-color: #EEAA7B;
+}
+
+.techboxpowder{
+	width: 30%;
+	float: left;
+	margin: 3px;
+	background-color: #66B9BF;
 }
 
 .techtitle{
@@ -33,17 +43,26 @@
 
 .a{
 	text-decoration: none;
-	color: black;
+	color: #EFEFEF;
 }
 
 .a:hover{
-	text-decoration: underline;
-	color: black;
+	color: #07889B;
 }
 
 @media (max-width: 500px){
-	.techbox{
-	width: 100%;
-	float: left;
-}
+	.techboxtan{
+		width: 100%;
+		float: left;
+	}
+
+	.techboxpowder{
+		width: 100%;
+		float: left;
+	}
+
+	.mainbox{
+		width: 85%;
+		margin: auto;
+	}
 }
