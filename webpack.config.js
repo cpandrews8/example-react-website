@@ -8,17 +8,17 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    loaders: [{
+    rules: [{
       exclude: /node_modules/,
-      loader: 'babel'
+      loader: 'babel-loader'
     },
     {
       test: /\.css$/,
-      loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]' 
+      loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]' 
     }]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['.js', '.jsx']
   },
   devServer: {
     historyApiFallback: true,

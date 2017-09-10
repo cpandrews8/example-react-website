@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-
-import Landing from './landing';
 import Video from '../containers/video';
 import SearchBar from '../containers/searchbar';
+import styles from '../../style/aboutme.css'
 
-class indexRoute extends Component {
+class YouTubeApi extends Component {
 	render(){
 		return(
 			<div>
-				<Landing/>
+				<Video/>
+				<SearchBar/>
 			</div>
 		)
 	}
 }
 
-export default indexRoute;
+export default YouTubeApi;

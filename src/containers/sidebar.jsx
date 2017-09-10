@@ -38,6 +38,9 @@ class SideBar extends Component {
 					<Link to='/site' className={styles.link}>
 						<li className={className}>About This Site</li>
 					</Link>
+					<Link to='/youtube' className={styles.link}>
+						<li className={className}>YouTube API</li>
+					</Link>
 				</ul>
 				)
 

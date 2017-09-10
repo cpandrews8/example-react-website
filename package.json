@@ -4,6 +4,8 @@
   "description": "A website to show React, Redux, and Node.",
   "main": "index.js",
   "scripts": {
+    "serve": "webpack && node server.js",
+    "build": "webpack",
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./tests/helper.js 'tests/**/*.js'",
     "watch-tests": "npm run test -- --watch"
@@ -14,6 +16,7 @@
     "babel-preset-stage-1": "^6.16.0",
     "css-loader": "^0.25.0",
     "css-modules-require-hook": "^4.0.5",
+    "express": "^4.15.4",
     "lodash": "^4.16.6",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
@@ -37,7 +40,7 @@
     "jsdom": "^9.9.1",
     "mocha": "^3.2.0",
     "react-addons-test-utils": "^15.4.2",
-    "webpack": "^1.13.3",
+    "webpack": "2.7.0",
     "webpack-dev-server": "^1.16.2"
   }
 }

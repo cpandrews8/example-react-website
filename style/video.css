@@ -1,14 +1,17 @@
 .video {
+	padding-top: 4%;
 	width:70%;
 	float: none;
-	margin: 10px auto;
+	margin: 0px auto;
 }
 
 @media (max-width: 500px){ 
 	.video {
-	width:100%;
-	float: none;
-	margin: 10px auto;
+		padding-top: 15%;
+		position: relative;
+		width: 90%;
+		float: none;
+		margin: 0px auto;
 	}
 }
 

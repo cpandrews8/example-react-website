@@ -1,24 +1,27 @@
 .visible{
 	visibility: visible;
-	color: gray;
+	color: #EFEFEF;
 	right: 0px;
 	border-bottom:solid 1px #555;
 	padding: 10px 15px;
 }
 
 .visible:hover{
-	background-color: gray;
-	color: black;
+	background-color: #EFEFEF;
+	color: #565656;
 	right: 0px;
 	padding: 10px 15px;
 }
 
 .button{
-	background-color: gray;
+	position: fixed;
+	background-color: #565656;
 	left: 0px;
-	color: black;
+	color: #EFEFEF;
 	border-bottom:solid 1px #555;
-	padding: 10px 20px;
+	padding: 10px 10px;
+	float: left;
+	text-align: left;
 }
 
 .hidden{
@@ -26,15 +29,15 @@
 }
 
 .sidebarvisible{
-	position: absolute;
-	background-color: black;
+	position: fixed;
+	background-color: #565656;
 	width: 25%;
 	-webkit-transition: width .25s;
     transition: width .25s;
     -webkit-margin-before: 0px;
     list-style: none;
     height: 100%;
-    z-index: 1;
+    z-index: 3;
     -webkit-padding-start: 5px;
 }
 
@@ -45,6 +48,7 @@
 	list-style: none;
 	z-index: 1;
 	-webkit-padding-start: 0px;
+	left: 0px;
 }
 
 .link{

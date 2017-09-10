@@ -1,4 +1,8 @@
 .app {
-    background: url('http://i.stack.imgur.com/jGlzr.png') 0 0 scroll;
+    background-color: #EFEFEF;
     margin: 0px;
+    padding: 0px;
+    border: 0px;
+    top: 0;
+    position: static;
 }
